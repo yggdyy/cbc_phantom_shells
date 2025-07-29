@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "cbc_phantom_shells:phantom_he_shell",
+    "cbc_phantom_shells:phantom_sonic_shell",
+    "cbc_phantom_shells:phantom_teleport_shell"
+  ]
+}

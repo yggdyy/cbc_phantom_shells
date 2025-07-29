@@ -1,0 +1,22 @@
+{
+  "block.cbc_phantom_shells.phantom_he_shell": "Phantom High Explosive Shell",
+  "tooltip.cbc_phantom_shells.phantom_he_shell.0": "This shell acts like a HE shell, but can pass through blocks without breaking them.",
+
+  "block.cbc_phantom_shells.phantom_sonic_shell": "Phantom Sonic Boom Shell",
+  "tooltip.cbc_phantom_shells.phantom_sonic_shell.0": "This shell will hurt all entities within the radius of %f blocks by emitting a sonic boom like a warden when it detonates. \nThis shell can pass through blocks without breaking them.",
+
+  "block.cbc_phantom_shells.phantom_teleport_shell": "Phantom Teleport Shell",
+  "tooltip.cbc_phantom_shells.phantom_teleport_shell.0": "This shell will mark up to %d living entities within the radius of %f blocks when it is fired. \nWhen this shell detonates, it will teleport those entities to its current position. \nThis shell can pass through blocks without breaking them.",
+
+  "item.cbc_phantom_shells.air_fuze": "Air Fuze",
+  "tooltip.cbc_phantom_shells.air_fuze.0": "Activated when meets air.",
+
+  "item.cbc_phantom_shells.liquid_fuze": "Liquid Fuze",
+  "tooltip.cbc_phantom_shells.liquid_fuze.0": "Activated when meets liquids. (i.e. water)",
+
+  "item.cbc_phantom_shells.solid_fuze": "Solid Fuze",
+  "tooltip.cbc_phantom_shells.solid_fuze.0": "Activated when meets solid. (stones, woods etc.)",
+
+  "item.cbc_phantom_shells.fluid_fuze": "Fluid Fuze",
+  "tooltip.cbc_phantom_shells.fluid_fuze.0": "Activated when meets air or liquids."
+}

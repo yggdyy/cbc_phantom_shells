@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "cbc_phantom_shells:air_fuze",
+    "cbc_phantom_shells:liquid_fuze",
+    "cbc_phantom_shells:solid_fuze",
+    "cbc_phantom_shells:fluid_fuze"
+  ]
+}

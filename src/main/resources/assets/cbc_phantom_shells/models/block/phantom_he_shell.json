@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"0": "cbc_phantom_shells:block/phantom_shell_bottom",
+		"2": "cbc_phantom_shells:block/phantom_he_shell_top",
+		"3": "cbc_phantom_shells:block/phantom_shell_side",
+		"particle": "cbc_phantom_shells:block/phantom_shell_bottom"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 3],
+			"to": [13, 16, 13],
+			"faces": {
+				"north": {"uv": [3, 0, 13, 16], "texture": "#3"},
+				"east": {"uv": [3, 0, 13, 16], "texture": "#3"},
+				"south": {"uv": [3, 0, 13, 16], "texture": "#3"},
+				"west": {"uv": [3, 0, 13, 16], "texture": "#3"},
+				"up": {"uv": [3, 3, 13, 13], "texture": "#2"},
+				"down": {"uv": [3, 3, 13, 13], "texture": "#0"}
+			}
+		}
+	]
+}

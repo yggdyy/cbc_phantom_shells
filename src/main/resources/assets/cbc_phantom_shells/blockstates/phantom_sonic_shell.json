@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "cbc_phantom_shells:block/phantom_sonic_shell",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "cbc_phantom_shells:block/phantom_sonic_shell",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "cbc_phantom_shells:block/phantom_sonic_shell",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "cbc_phantom_shells:block/phantom_sonic_shell",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "cbc_phantom_shells:block/phantom_sonic_shell"
+    },
+    "facing=west": {
+      "model": "cbc_phantom_shells:block/phantom_sonic_shell",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

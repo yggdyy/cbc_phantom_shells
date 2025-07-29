@@ -1,0 +1,22 @@
+{
+  "block.cbc_phantom_shells.phantom_he_shell": "幻影高爆弹",
+  "tooltip.cbc_phantom_shells.phantom_he_shell.0": "这个炮弹和高爆弹类似，但是可以穿透方块而不破坏它们。",
+
+  "block.cbc_phantom_shells.phantom_sonic_shell": "幻影尖啸弹",
+  "tooltip.cbc_phantom_shells.phantom_sonic_shell.0": "这个炮弹在爆炸时将会用音波尖啸伤害以其为球心半径为%f格的一个球内的所有有生命的实体。\n这个炮弹可以穿透方块而不破坏它们。",
+
+  "block.cbc_phantom_shells.phantom_teleport_shell": "幻影传送弹",
+  "tooltip.cbc_phantom_shells.phantom_teleport_shell.0": "这个炮弹在发射时将会标记至多%d个在其周围%f格内的有生命的实体。\n这个炮弹爆炸时，将会把这些标记的实体传送至爆点。\n这个炮弹可以穿透方块而不破坏它们。",
+
+  "item.cbc_phantom_shells.air_fuze": "气感引信",
+  "tooltip.cbc_phantom_shells.air_fuze.0": "当炮弹位于空气中时，引信引爆。",
+
+  "item.cbc_phantom_shells.liquid_fuze": "液感引信",
+  "tooltip.cbc_phantom_shells.liquid_fuze.0": "当炮弹位于液体中时，引信引爆。",
+
+  "item.cbc_phantom_shells.solid_fuze": "固感引信",
+  "tooltip.cbc_phantom_shells.solid_fuze.0": "当炮弹位于固体中时，引信引爆。",
+
+  "item.cbc_phantom_shells.fluid_fuze": "流感引信",
+  "tooltip.cbc_phantom_shells.fluid_fuze.0": "当炮弹位于流体（包括空气）中时，引信引爆"
+}
