@@ -5,6 +5,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '[6.0,6.2)'
     id "com.github.johnrengelman.shadow" version "8.1.1"
     id 'org.spongepowered.mixin' version '0.7.+'
+    id "com.modrinth.minotaur" version "2.+"
 }
 
 version = mod_version
@@ -235,4 +236,24 @@ publishing {
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+}
+
+modrinth {
+    token = System.getenv("MODRINTH_TOKEN") // Remember to have the MODRINTH_TOKEN environment variable set or else this will fail - just make sure it stays private!
+    projectId = "oIRHGLuV" // This can be the project ID or the slug. Either will work!
+    versionNumber = "0.0.1" // You don't need to set this manually. Will fail if Modrinth has this version already
+    versionType = "alpha" // This is the default -- can also be `beta` or `alpha`
+    uploadFile = jar // With Loom, this MUST be set to `remapJar` instead of `jar`!
+    gameVersions = ["1.20.1"] // Must be an array, even with only one version
+    loaders = ["forge"] // Must also be an array - no need to specify this if you're using Loom or ForgeGradle
+    dependencies { // A special DSL for creating dependencies
+        // scope.type
+        // The scope can be `required`, `optional`, `incompatible`, or `embedded`
+        // The type can either be `project` or `version`
+        //required.project "fabric-api" // Creates a new required dependency on Fabric API
+        //optional.version "sodium", "mc1.19.3-0.4.8" // Creates a new optional dependency on this specific version of Sodium
+        required.project "create"
+        required.project "create-big-cannons"
+    }
+    syncBodyFrom = rootProject.file("README.md").text
 }
