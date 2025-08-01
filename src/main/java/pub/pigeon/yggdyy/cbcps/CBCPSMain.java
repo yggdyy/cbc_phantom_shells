@@ -44,9 +44,9 @@ public class CBCPSMain
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if(event.getTabKey() == ModGroup.MAIN_TAB_KEY) {
-            event.accept(CBCPSBlocks.PHANTOM_HE_SHELL.asItem());
-            event.accept(CBCPSBlocks.PHANTOM_SONIC_SHELL.asItem());
-            event.accept(CBCPSBlocks.PHANTOM_TELEPORT_SHELL.asItem());
+            event.accept(CBCPSBlocks.PHANTOM_HE_SHELL.get());
+            event.accept(CBCPSBlocks.PHANTOM_SONIC_SHELL.get());
+            event.accept(CBCPSBlocks.PHANTOM_TELEPORT_SHELL.get());
             event.accept(CBCPSItems.AIR_FUZE.get());
             event.accept(CBCPSItems.LIQUID_FUZE.get());
             event.accept(CBCPSItems.FLUID_FUZE.get());
